@@ -1,0 +1,11 @@
+[debug] > Exec(Gatling/test, None, None)
+[debug] Evaluating tasks: Gatling / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\PrP\gat-test\target\scala-2.13\test-classes ...
+[error] D:\PrP\gat-test\src\test\scala\jj\test1.scala:26:10: ';' expected but ')' found.
+[error]         ))
+[error]          ^
+[error] one error found
+[error] (Test / compileIncremental) Compilation failed
+[error] Total time: 3 s, completed 28 may 2022 8:10:26
+[debug] > Exec(idea-shell, None, None)

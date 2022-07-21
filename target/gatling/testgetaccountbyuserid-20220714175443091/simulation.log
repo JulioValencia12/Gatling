@@ -1,0 +1,4 @@
+RUN	jj.TestGetAccountByUserId	testgetaccountbyuserid	1657821283091	 	3.7.6
+USER	test-getAccount-byUserId	START	1657821284448
+REQUEST		test-get-byUserId	1657821284476	1657821284723	KO	substring({"accountNumber": "1653680745158"}).find.exists, found nothing
+USER	test-getAccount-byUserId	END	1657821289778

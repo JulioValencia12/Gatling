@@ -1,11 +1,26 @@
-[debug] javaOptions: Vector(-Dsbt.supershell=false, -Djdk.debug=release, -Dswoval.tmpdir=C:\Users\Jull\.sbt\1.0, -Didea.installation.dir=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1, -Djna.nosys=true, -Dsbt.log.noformat=true, -Dlog4j.ignoreTCL=true, -Djnidispatch.path=C:\Users\Jull\AppData\Local\Temp\jna-2320427\jna14224253167632224961.dll, -Djna.loaded=true, -Didea.managed=true, -Dnative.encoding=Cp1252, -server, -Xmx1G, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:+ParallelRefProcEnabled, -XX:MaxInlineLevel=20, -XX:MaxTrivialSize=12, -XX:-UseBiasedLocking)
+[debug] javaOptions: Vector(-Dsbt.supershell=false, -Djdk.debug=release, -Dswoval.tmpdir=C:\Users\Jull\.sbt\1.0, -Didea.installation.dir=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1, -Djna.nosys=true, -Dsbt.log.noformat=true, -Dlog4j.ignoreTCL=true, -Djnidispatch.path=C:\Users\Jull\AppData\Local\Temp\jna-2320427\jna16617780028042999172.dll, -Djna.loaded=true, -Didea.managed=true, -Dnative.encoding=Cp1252, -server, -Xmx1G, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:+ParallelRefProcEnabled, -XX:MaxInlineLevel=20, -XX:MaxTrivialSize=12, -XX:-UseBiasedLocking)
+[debug] Forking tests - parallelism = false
+[debug] javaOptions: Vector(-Dsbt.supershell=false, -Djdk.debug=release, -Dswoval.tmpdir=C:\Users\Jull\.sbt\1.0, -Didea.installation.dir=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1, -Djna.nosys=true, -Dsbt.log.noformat=true, -Dlog4j.ignoreTCL=true, -Djnidispatch.path=C:\Users\Jull\AppData\Local\Temp\jna-2320427\jna16617780028042999172.dll, -Djna.loaded=true, -Didea.managed=true, -Dnative.encoding=Cp1252, -server, -Xmx1G, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:+ParallelRefProcEnabled, -XX:MaxInlineLevel=20, -XX:MaxTrivialSize=12, -XX:-UseBiasedLocking)
+[debug] Forking tests - parallelism = false
+[debug] javaOptions: Vector(-Dsbt.supershell=false, -Djdk.debug=release, -Dswoval.tmpdir=C:\Users\Jull\.sbt\1.0, -Didea.installation.dir=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1, -Djna.nosys=true, -Dsbt.log.noformat=true, -Dlog4j.ignoreTCL=true, -Djnidispatch.path=C:\Users\Jull\AppData\Local\Temp\jna-2320427\jna16617780028042999172.dll, -Djna.loaded=true, -Didea.managed=true, -Dnative.encoding=Cp1252, -server, -Xmx1G, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:+ParallelRefProcEnabled, -XX:MaxInlineLevel=20, -XX:MaxTrivialSize=12, -XX:-UseBiasedLocking)
 [debug] Forking tests - parallelism = false
 [debug] Create a single-thread test executor
 [debug] Runner for io.gatling.sbt.GatlingFramework produced 1 initial tasks for 1 tests.
-[debug]   Running TaskDef(jj.test1, sbt.ForkMain$SubclassFingerscan@7a92922, false, [SuiteSelector])
-[error] Simulation test1 failed.
+[debug]   Running TaskDef(jj.TestGetAccountByUserId, sbt.ForkMain$SubclassFingerscan@7a92922, false, [SuiteSelector])
+[info] Simulation TestGetAccountByUserId successful.
+[debug]     Produced 0 nested tasks and 1 events.
+[debug] Create a single-thread test executor
+[debug] Runner for io.gatling.sbt.GatlingFramework produced 1 initial tasks for 1 tests.
+[debug]   Running TaskDef(jj.TestGetUserByUserId, sbt.ForkMain$SubclassFingerscan@7a92922, false, [SuiteSelector])
+[info] Simulation TestGetUserByUserId successful.
+[debug]     Produced 0 nested tasks and 1 events.
+[debug] Create a single-thread test executor
+[debug] Runner for io.gatling.sbt.GatlingFramework produced 1 initial tasks for 1 tests.
+[debug]   Running TaskDef(jj.TestGetPocketByUserId, sbt.ForkMain$SubclassFingerscan@7a92922, false, [SuiteSelector])
+[info] Simulation TestGetPocketByUserId successful.
 [debug]     Produced 0 nested tasks and 1 events.
 [info] Simulation(s) execution ended.
-[error] Failed tests:
-[error] 	jj.test1
-[error] (Gatling / test) sbt.TestsFailedException: Tests unsuccessful
+[debug] Passed tests:
+[debug] 	jj.TestGetAccountByUserId
+[debug] 	jj.TestGetUserByUserId
+[debug] 	jj.TestGetPocketByUserId

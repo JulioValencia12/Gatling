@@ -1,0 +1,32 @@
+[debug] > Exec(Gatling/test, None, None)
+[debug] Evaluating tasks: Gatling / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\PrP\gat-test\target\scala-2.13\test-classes ...
+[info] done compiling
+[error] java.lang.IllegalArgumentException: requirement failed: No scenario set up
+[error] 	at scala.Predef$.require(Predef.scala:337)
+[error] 	at io.gatling.core.scenario.Simulation$.params(Simulation.scala:47)
+[error] 	at io.gatling.core.scenario.Simulation.params(Simulation.scala:181)
+[error] 	at io.gatling.app.SimulationClass$Scala.params(SimulationClass.scala:31)
+[error] 	at io.gatling.app.Runner.run0(Runner.scala:62)
+[error] 	at io.gatling.app.Runner.run(Runner.scala:49)
+[error] 	at io.gatling.app.Gatling$.start(Gatling.scala:87)
+[error] 	at io.gatling.app.Gatling$.fromArgs(Gatling.scala:49)
+[error] 	at io.gatling.app.Gatling$.fromSbtTestFramework(Gatling.scala:45)
+[error] 	at io.gatling.sbt.GatlingTask.liftedTree1$1(GatlingTask.scala:52)
+[error] 	at io.gatling.sbt.GatlingTask.execute(GatlingTask.scala:51)
+[error] 	at sbt.ForkMain$Run.lambda$runTest$1(ForkMain.java:413)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[error] Simulation test3 failed.
+[error] Simulation test1 failed.
+[info] Simulation(s) execution ended.
+[error] Failed tests:
+[error] 	jj.test3
+[error] 	jj.test1
+[debug] Forcing garbage collection...
+[error] (Gatling / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 16 s, completed 28 may 2022 8:25:18
+[debug] > Exec(idea-shell, None, None)

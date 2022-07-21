@@ -1,0 +1,10 @@
+[debug] > Exec(Gatling/test, None, None)
+[debug] Evaluating tasks: Gatling / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to D:\PrP\gat-test\target\scala-2.13\test-classes ...
+[info] done compiling
+[info] Simulation test1 successful.
+[info] Simulation testget successful.
+[info] Simulation(s) execution ended.
+[success] Total time: 30 s, completed 2 jun 2022 9:55:09
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,4 @@
+RUN	jj.TestPocket	testpocket	1656529868236	 	3.7.6
+ERROR	test-get-byUserId: Failed to build request: url alb-pocket-dev-813463882.us-east-1.elb.amazonaws.com/user/988b6140-ddf5-11ec-bfb6-4984ba70d27f can't be parsed into an Uri: j.l.IllegalArgumentException: alb-pocket-dev-813463882.us-east-1.elb.amazonaws.com/user/988b6140-ddf5-11ec-bfb6-4984ba70d27f could not be parsed into a proper Uri, missing scheme 	1656529871667
+USER	test-get-byUserId	START	1656529871660
+USER	test-get-byUserId	END	1656529876708

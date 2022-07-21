@@ -1,0 +1,10 @@
+{
+  "simulation": "jj.TestGetUserByUserId",
+  "simulationId": "testgetuserbyuserid",
+  "start": 1657822669848,
+  "description": "",
+  "scenarios": ["test-getUser-byUserId"],
+  "assertions": [
+
+  ]
+}

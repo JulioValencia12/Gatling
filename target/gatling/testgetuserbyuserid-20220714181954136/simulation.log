@@ -1,0 +1,4 @@
+RUN	jj.TestGetUserByUserId	testgetuserbyuserid	1657822794136	 	3.7.6
+USER	test-getUser-byUserId	START	1657822795798
+REQUEST		test-getUser-byUserId	1657822795826	1657822796068	OK	 
+USER	test-getUser-byUserId	END	1657822801126

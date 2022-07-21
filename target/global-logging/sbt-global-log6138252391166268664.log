@@ -1,0 +1,23 @@
+[debug] > Exec(Gatling/test, None, None)
+[debug] Evaluating tasks: Gatling / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to D:\PrP\gat-test\target\scala-2.13\test-classes ...
+[error] D:\PrP\gat-test\src\test\scala\jj\test1.scala:41:1: expected class or object definition
+[error] def randomUuid = UUID.randomUUID().toString
+[error] ^
+[error] D:\PrP\gat-test\src\test\scala\jj\test1.scala:42:1: expected class or object definition
+[error] val feeder = Iterator.continually(Map("user" -> randomUuid))
+[error] ^
+[error] D:\PrP\gat-test\src\test\scala\jj\test1.scala:44:1: expected class or object definition
+[error] def createPostRequest = {
+[error] ^
+[error] D:\PrP\gat-test\src\test\scala\jj\test1.scala:51:1: expected class or object definition
+[error] val scn = scenario("some load test")
+[error] ^
+[error] D:\PrP\gat-test\src\test\scala\jj\test1.scala:55:1: expected class or object definition
+[error] setUp(scn.inject(atOnceUsers(100)))
+[error] ^
+[error] 5 errors found
+[error] (Test / compileIncremental) Compilation failed
+[error] Total time: 4 s, completed 28 may 2022 8:01:31
+[debug] > Exec(idea-shell, None, None)

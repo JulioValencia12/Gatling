@@ -1,0 +1,13 @@
+[debug] > Exec(Gatling/test, None, None)
+[debug] Evaluating tasks: Gatling / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\PrP\gat-test\target\scala-2.13\test-classes ...
+[info] done compiling
+[error] Simulation test1 failed.
+[info] Simulation test3 successful.
+[info] Simulation(s) execution ended.
+[error] Failed tests:
+[error] 	jj.test1
+[error] (Gatling / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 27 s, completed 1 jun 2022 15:30:09
+[debug] > Exec(idea-shell, None, None)

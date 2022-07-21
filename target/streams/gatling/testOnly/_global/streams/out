@@ -1,0 +1,4 @@
+[debug] javaOptions: Vector(-Dsbt.supershell=false, -Djdk.debug=release, -Dswoval.tmpdir=C:\Users\Jull\.sbt\1.0, -Didea.installation.dir=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1, -Djna.nosys=true, -Dsbt.log.noformat=true, -Dlog4j.ignoreTCL=true, -Djnidispatch.path=C:\Users\Jull\AppData\Local\Temp\jna-2320427\jna8406957947717348840.dll, -Djna.loaded=true, -Didea.managed=true, -Dnative.encoding=Cp1252, -server, -Xmx1G, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:+ParallelRefProcEnabled, -XX:MaxInlineLevel=20, -XX:MaxTrivialSize=12, -XX:-UseBiasedLocking)
+[debug] Forking tests - parallelism = false
+[info] Passed: Total 0, Failed 0, Errors 0, Passed 0
+[info] No tests to run for Gatling / testOnly

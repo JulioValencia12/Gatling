@@ -1,0 +1,5 @@
+[debug] > Exec(Gatling/test, None, None)
+[debug] Evaluating tasks: Gatling / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\PrP\gat-test\target\scala-2.13\test-classes ...
+[info] done compiling

@@ -1,0 +1,10 @@
+{
+  "simulation": "jj.testget",
+  "simulationId": "testget",
+  "start": 1654181700454,
+  "description": "",
+  "scenarios": ["test3"],
+  "assertions": [
+
+  ]
+}

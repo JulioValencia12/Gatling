@@ -1,0 +1,4 @@
+RUN	jj.TestGetPocketByUserId	testgetpocketbyuserid	1657822803966	 	3.7.6
+USER	test-getPocket-byUserId	START	1657822806479
+REQUEST		test-getPocket-byUserId	1657822806512	1657822806780	OK	 
+USER	test-getPocket-byUserId	END	1657822811815

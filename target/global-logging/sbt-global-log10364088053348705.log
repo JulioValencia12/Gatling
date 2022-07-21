@@ -1,0 +1,5 @@
+[debug] > Exec(Gatling/status, None, None)
+[error] Not a valid key: status (similar: state, tags, streams)
+[error] Gatling/status
+[error]               ^
+[debug] > Exec(idea-shell, None, None)

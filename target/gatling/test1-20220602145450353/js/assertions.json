@@ -1,0 +1,10 @@
+{
+  "simulation": "jj.test1",
+  "simulationId": "test1",
+  "start": 1654181690353,
+  "description": "",
+  "scenarios": ["test1"],
+  "assertions": [
+
+  ]
+}

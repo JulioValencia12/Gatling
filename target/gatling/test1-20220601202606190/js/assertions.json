@@ -1,0 +1,18 @@
+{
+  "simulation": "jj.test1",
+  "simulationId": "test1",
+  "start": 1654115166190,
+  "description": "",
+  "scenarios": ["test1"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [100.0],
+  "result": false,
+  "message": "Global: max of response time is less than 100.0",
+  "actualValue": [197.0]
+}
+  ]
+}

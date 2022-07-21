@@ -1,0 +1,4 @@
+RUN	jj.TestPocket	testpocket	1656525545040	 	3.7.6
+REQUEST		test-get-byUserId	1656525546972	1656525546972	KO	j.n.UnknownHostException: a5bb9ec672fb8497d98689cb397a1913-85705189.us-east-1.elb.amazonaws.com
+USER	test-get-byUserId	START	1656525546940
+USER	test-get-byUserId	END	1656525552022

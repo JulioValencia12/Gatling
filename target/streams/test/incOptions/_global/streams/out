@@ -1,8 +1,8 @@
 [debug] Created transactional ClassFileManager with tempDir = D:\PrP\gat-test\target\scala-2.13\test-classes.bak
 [debug] About to delete class files:
-[debug] 	BasicSimulation.class
+[debug] 	TestGetPocketByUserId.class
 [debug] We backup class files:
-[debug] 	BasicSimulation.class
+[debug] 	TestGetPocketByUserId.class
 [debug] Registering generated classes:
-[debug] 	test1.class
+[debug] 	TestGetPocketByUserId.class
 [debug] Removing the temporary directory used for backing up class files: D:\PrP\gat-test\target\scala-2.13\test-classes.bak

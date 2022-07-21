@@ -1,0 +1,10 @@
+{
+  "simulation": "jj.TestGetPocketByUserId",
+  "simulationId": "testgetpocketbyuserid",
+  "start": 1657822803966,
+  "description": "",
+  "scenarios": ["test-getPocket-byUserId"],
+  "assertions": [
+
+  ]
+}

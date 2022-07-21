@@ -1,0 +1,4 @@
+RUN	jj.TestPocket	testpocket	1656530084164	 	3.7.6
+USER	test-get-byUserId	START	1656530087083
+REQUEST		test-get-byUserId	1656530087143	1656530087495	KO	substring({"firstName":"Julio","lastName":"Valencia","birthDate":1991,"phoneNumber":"3226094324","identificationNumber":"01128479757","address":"Calle 48d #110-82","city":"MED","department":"ANT","Configuration":{"bills":{"Bill":[]},"recharges":{"Recharge":[]},"friendAccounts":{"Friends":[]}},"email":"julyomk@hotmail.com","Credentials":{"user":"","password":""}}).find.exists, found nothing
+USER	test-get-byUserId	END	1656530092537
